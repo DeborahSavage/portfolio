@@ -48,6 +48,8 @@ img {
 
 
 
+
+
 /* =================================
   Base Layout Styles
 ==================================== */
@@ -57,6 +59,7 @@ img {
   max-width: 1260px;
   background: #fff;
   margin: auto;
+  align-items: center;
 }
 
 .main-header {
