@@ -18,8 +18,8 @@
 	transition: background .3s, color .3s;
 }
 .button:hover {
-	color: #fff;
-	background: slategrey;
+	color: black;
+	background: #fff;
 }
 
 /* =================================

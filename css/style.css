@@ -46,9 +46,15 @@ img {
   border: solid 2px black;
 }
 
-footer .foot {
+footer{
+  display: block; /* change this from inline-block */
+  width:20%; /* setting the width */
+  margin:0 auto;
   text-align: center;
+  padding: 10px;
 }
+
+
 
 
 
@@ -61,7 +67,6 @@ footer .foot {
   max-width: 1260px;
   background: #fff;
   margin: auto;
-  align-items: center;
 }
 
 .main-header {
@@ -79,6 +84,12 @@ footer .foot {
   height: 100%;
   display: block;
   line-height: 0;
+}
+
+.foot {
+
+
+
 }
 
 /* ---- Page Elements ---- */
@@ -168,8 +179,8 @@ footer .foot {
   border-radius: 8px;
   padding: 10px;
 	text-transform: uppercase;
+  }
 
-}
 
 /* ---- Float clearfix ---- */
 .clearfix::after {
