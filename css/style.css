@@ -7,14 +7,19 @@
 
 body {
   font: 1em/1.5 'Open Sans', sans-serif;
-  color: #373737;
-  background: #eaeaea;
+  color: #262525;
+  background: #262525;
   margin: 0;
 }
 
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: #fe59d7;
+}
+
 
 h1,
 h2,
@@ -24,7 +29,7 @@ h3 {
 
 h2 {
   font-size: 1.125em;
-  color: #4a89ca;
+  color: #262525;
   font-weight: 600;
   margin: 0;
 }
@@ -43,7 +48,7 @@ p {
 }
 
 img {
-  border: solid 2px black;
+  border: solid 2px #262525;
 }
 
 footer{
@@ -98,6 +103,8 @@ footer{
   font-weight: 800;
   margin: 0 0 1.5em;
   line-height: 1;
+  color: #262525;
+
 }
 
 .name span {
@@ -138,6 +145,7 @@ footer{
 .port {
   display: block;
   margin: 10px;
+  color: #fe59d7;
 }
 
 .photo-overlay {
@@ -154,7 +162,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: #262525;
 }
 
 .photo-overlay h3 {
@@ -164,7 +172,7 @@ footer{
 .slide .button {
   color: #fff;
   padding: 20px 0;
-  background: black;
+  background: #262525;
   margin: 0;
 }
 
@@ -174,12 +182,14 @@ footer{
 
 .butn {
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
+  background-color: #262525;
   color: white;
   border-radius: 8px;
   padding: 10px;
 	text-transform: uppercase;
   }
+
+
 
 
 /* ---- Float clearfix ---- */

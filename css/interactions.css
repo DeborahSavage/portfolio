@@ -18,7 +18,7 @@
 	transition: background .3s, color .3s;
 }
 .button:hover {
-	color: black;
+	color: #262525;
 	background: #fff;
 }
 
@@ -47,7 +47,11 @@
 }
 
 /* -- Logo ---------- */
+.logo {
+	color: #262525;
+}
 
 .logo:hover {
 	transform: rotate(-20deg);
+
 }
